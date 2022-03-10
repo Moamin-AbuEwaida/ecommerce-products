@@ -21,7 +21,7 @@ const ProductListing = () => {
   useEffect(()=>{
     fetchProducts();
   },[]);
-  console.log('products:',products)
+  //console.log('products:',products)
   return (
     <div className='ui grid container'>
         <ProductComponent />
